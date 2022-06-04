@@ -49,4 +49,5 @@ Checkout the live deployment here: [TypeTheAlphabet](https://typing-game-nine-om
 
 ## Demo Video
 
-![Preview](preview.gif)
+<img src="preview.gif" width="250"/>
+
