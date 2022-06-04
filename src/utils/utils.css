@@ -1,0 +1,18 @@
+.title {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  padding: 1rem 4rem;
+  line-height: 2;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.text {
+  padding: 8px;
+  line-height: 2;
+  font-size: 0.8rem;
+}

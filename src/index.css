@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* reset */
+button,
+input {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
