@@ -1,0 +1,16 @@
+.box-container {
+  height: 10rem;
+  width: 90%;
+  background-color: white;
+  color: green;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-item {
+  font-size: 4rem;
+  font-weight: 900;
+}
