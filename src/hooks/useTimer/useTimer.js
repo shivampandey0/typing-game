@@ -20,8 +20,8 @@ export const useTimer = () => {
   const countDown = () => {
     setTimer((prev) => {
       let { seconds, miliseconds } = prev;
-      if ((miliseconds += 10) === 1000) {
-        miliseconds = 0;
+      if ((miliseconds += 10) >= 1000) {
+        miliseconds -= 1000;
         seconds += 1;
       }
 
@@ -33,7 +33,7 @@ export const useTimer = () => {
     setTimerId(
       setInterval(() => {
         countDown();
-      }, 100)
+      }, 10)
     );
   };
 
